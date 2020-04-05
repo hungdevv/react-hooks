@@ -1,13 +1,13 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.scss";
+import ColorBox from "./components/ColorBox";
 
 function App() {
-return (
-<div className="App">
-  <h1>Nguyen Ngoc Hung</h1>
-</div>
-);
+  return (
+    <div className="app">
+      <ColorBox />
+    </div>
+  );
 }
 
 export default App;

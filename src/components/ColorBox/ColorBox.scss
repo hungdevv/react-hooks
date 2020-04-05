@@ -1,0 +1,6 @@
+.color-box {
+    $box: 150px;
+    width: $box;
+    height: $box;
+    transition: all .35s ease-in-out;
+}
