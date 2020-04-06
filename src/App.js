@@ -5,10 +5,22 @@ import TodoList from "./components/TodoList";
 
 function App() {
   const [todoList, setTodoList] = useState([
-    { id: 1, title: "List1" },
-    { id: 2, title: "List2" },
-    { id: 3, title: "List3" },
-    { id: 4, title: "List4" },
+    {
+      id: 1,
+      title: "List1",
+    },
+    {
+      id: 2,
+      title: "List2",
+    },
+    {
+      id: 3,
+      title: "List3",
+    },
+    {
+      id: 4,
+      title: "List4",
+    },
   ]);
 
   function handleTodoClick(todo) {
@@ -21,7 +33,7 @@ function App() {
 
   return (
     <div className="app">
-      <TodoList todos={todoList} onTodoClick={handleTodoClick} />
+      <TodoList todos={todoList} onTodoClick={handleTodoClick} />{" "}
     </div>
   );
 }

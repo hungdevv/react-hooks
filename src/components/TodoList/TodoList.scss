@@ -1,0 +1,19 @@
+.todo-list {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 150px;
+    background-color: #ccc;
+    color: #111;
+}
+.todo-list li {
+    width: 100%;
+    transition: all 0.35s ease-in-out;
+}
+.todo-list li:hover {
+    background-color: #999;
+}
