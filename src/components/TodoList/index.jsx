@@ -22,7 +22,6 @@ function TodoList(props) {
   }
   return (
     <ul className="todo-list">
-      {" "}
       {todos.map((todo) => (
         <li key={todo.id} onClick={() => handleClick(todo)}>
           {todo.title}
